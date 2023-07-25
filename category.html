@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />   
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Category Page</title>
+    <style>
+      .products {
+    font-family: Arial, sans-serif;
+    }
+
+    .section_title h1 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    .single_product {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .single_product:hover {
+        transform: translateY(-10px);
+    }
+
+    .product_img img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .product-caption h4 a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .new_product {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+    
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Shop</h1></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Product</a>
+            </li>
+            <li class="nav-item">
+            <a href="category.html" class="nav-link">Category</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="contactus.html" class="nav-link">Contact Us</a>
+            </li>
+           
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+        
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+          </ul>
+
+        
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+   <!-- ==============category starts here============== -->
+   <section class="products py-5 my-5 bg-light" id="products">
+    <div class="container ">
+        <div class="section_title text-center mb-5">
+            <h1 class="text-capitalize">Categories</h1>
+        </div>
+        <div class="row mb-5">
+            <div class="col-4">
+                <div class="single_product shadow text-center p-1">
+                    <div class="product_img">
+                        <a href="product.html"><img src="images/cat1.jpg" class="img img-fluid rounded"
+                                alt=""></a>
+                    </div>
+                    <div class="product-caption my-3">
+                        <h4><a href="product.html">xyz</a></h4>
+                    </div>
+                    <div class="mt-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+                    <div class="product_img">
+                        <a href="product.html"><img src="images/cat2.jpg" class="img img-fluid rounded"
+                                alt=""></a>
+                        <div class="new_product">
+                            <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                        </div>
+                    </div>
+                    <div class="product-caption my-3">
+                        <h4><a href="product.html">xyz</a></h4>
+                    </div>
+                    <div class="mt-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="single_product shadow text-center p-1">
+                    <div class="product_img">
+                        <a href="product.html"><img src="images/cat3.jpg" class= "img img-fluid rounded"
+                                alt=""></a> 
+                        
+
+                                <div class="new_product">
+                                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                              </div>
+                          </div>
+                          <div class="product-caption my-3">
+                              <h4><a href="product.html">xyz</a></h4>
+                          </div>
+                          <div class="mt-3">
+                              <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-4">
+                      <div class="single_product shadow text-center p-1">
+                          <div class="product_img">
+                              <a href="product.html"><img src="images/cat2.jpg" class="img img-fluid rounded"
+                                      alt=""></a>
+                              <div class="new_product">
+                                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                              </div>
+                          </div>
+                          <div class="product-caption my-3">
+                              <h4><a href="product.html">xyz</a></h4>
+                          </div>
+                          <div class="mt-3">
+                              <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                      <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+                          <div class="product_img">
+                              <a href="product.html"><img src="images/cat3.jpg" class="img img-fluid rounded"
+                                      alt=""></a>
+                              <div class="new_product">
+                                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                              </div>
+                          </div>
+                          <div class="product-caption my-3">
+                              <h4><a href="product.html">xyz</a></h4>
+                          </div>
+                          <div class="mt-3">
+                              <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                              </p>
+                          </div>
+                      </div>
+                  </div> 
+                  
+      
+                  <div class="col-4">
+                    <div class="single_product shadow text-center p-1">
+                        <div class="product_img">
+                            <a href="product.html"><img src="images/cat1.jpg" class="img img-fluid rounded"
+                                    alt=""></a>
+                        </div>
+                        <div class="product-caption my-3">
+                            <h4><a href="product.html">xyz</a></h4>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ad!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="row">
+            <div class="col d-flex">
+              <h4>INFORMATION</h4>
+              <a href="">About us</a>
+              <a href="">Contact Us</a>
+              <a href="">Term & Conditions</a>
+              <a href="">Shipping Guide</a>
+            </div>
+            <div class="col d-flex">
+              <h4>USEFUL LINK</h4>
+              <a href="">Online Store</a>
+              <a href="">Customer Services</a>
+              <a href="">Promotion</a>
+              <a href="">Top Brands</a>
+            </div>
+            <div class="col d-flex">
+              <span><i class='bx bxl-facebook-square'></i></span>
+              <span><i class='bx bxl-instagram-alt' ></i></span>
+              <span><i class='bx bxl-github' ></i></span>
+              <span><i class='bx bxl-twitter' ></i></span>
+              <span><i class='bx bxl-pinterest' ></i></span>
+            </div>
+            
+            
+          </div>
+        </footer>
+  </body>
+</html>

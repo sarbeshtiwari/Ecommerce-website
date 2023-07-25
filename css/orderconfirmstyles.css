@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.container {
+    padding: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.order-description {
+    margin-bottom: 30px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.plan-description {
+    flex-basis: 70%;
+}
+
+.plan-description strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.proceed-button, .cancel-button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.proceed-button {
+    background-color: #4d90fe;
+    color: white;
+}
+
+.cancel-button {
+    background-color: white;
+    color: #4d90fe;
+}

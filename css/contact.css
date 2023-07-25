@@ -1,0 +1,149 @@
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactInfo h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contactInfo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contactInfo ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contactInfo ul li img {
+    height: 30px;
+    width: 30px;
+}
+
+.contactInfo ul li span:first-child {
+    height: 40px;
+    min-width: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.contactInfo ul li span:last-child {
+    color: #333;
+}
+
+.contactForm {
+    padding-left: 2rem;
+}
+
+.contactForm h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.formBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox.w50 {
+    width: calc(50% - 1rem);
+}
+
+.inputBox.w100 {
+    width: 100%;
+}
+
+.inputBox input,
+.inputBox textarea {
+   width :100% ;  
+   padding :5px 0 ;  
+   resize :none ;  
+   border:none ; 
+   outline:none ; 
+   border-bottom :2px solid #333 ; 
+   background-color :transparent ; 
+   color:#333 ; 
+   font-size :18px ; 
+   font-weight :400 ; 
+   letter-spacing :1px ; 
+   transition :all .3s ease-in-out ; 
+} 
+
+.inputBox input:focus,
+.inputBox textarea:focus{
+border-bottom-color:#777; 
+} 
+
+.inputBox span{
+position:absolute; 
+left :0; 
+padding :5px 0; 
+font-size :18px; 
+font-weight :300; 
+letter-spacing :1px; 
+pointer-events :none; 
+transition :all .3s ease-in-out; 
+} 
+
+.inputBox input:focus ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:valid ~ span{
+transform :translateY(-20px); 
+font-size :12px; 
+font-weight :400; 
+letter-spacing :0; 
+color:#777; 
+} 
+
+.inputBox input[type="submit"]{
+position:relative; 
+cursor:pointer; 
+background-color:#333; 
+color:#fff; 
+border:none; 
+max-width :150px; 
+padding :12px ;  
+font-size :18px ;  
+font-weight :400 ;  
+letter-spacing :1px ;  
+text-transform :uppercase ;  
+transition :all .3s ease-in-out ;  
+} 
+
+.inputBox input[type="submit"]:hover{
+background-color:#fff ;  
+color:#333 ;  
+box-shadow :0 2px 10px rgba(0,0,0,.3) ;  
+} 
+
+@media (max-width:767px){
+.contactInfo{
+flex-direction :column ;  
+} 
+
+.contactForm{
+padding-left :0 ;  
+} 
+
+.formBox .inputBox.w50{
+width :100% ;  
+}
+}
